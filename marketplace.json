@@ -20,11 +20,10 @@
   "redis_features": [],
   "redis_modules": ["RedisAI","RedisGears"],
   "app_image_urls": [
-    "https://github.com/redis-developer/redis-market-basket-analysis/blob/main/images/home-advanced-filter.png?raw=true",
-    "https://github.com/redis-developer/redis-market-basket-analysis/blob/main/images/log-details-popup.png?raw=true"
+    "https://github.com/redis-developer/redis-market-basket-analysis/blob/master/redis-market-basket-analysis-1.png"
   ],
   "youtube_url": "",
   "special_tags": [""],
   "verticals": ["Others"],
-  "markdown": "https://raw.githubusercontent.com/redis-developer/redis-market-basket-analysis/main/README.md"
+  "markdown": "https://raw.githubusercontent.com/redis-developer/redis-market-basket-analysis/master/README.md"
 }
