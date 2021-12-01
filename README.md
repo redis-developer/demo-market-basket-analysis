@@ -73,8 +73,9 @@ But if we add Major_Appliances then it will be an unlikely basket with a score o
 "SETEX" 
 ```
 
+## Data sources
 
- 
+The data was pulled from Amazon reviews datasets and the model was built using reviews with verified purchases. Individual user profiles were compiled and analyzed to describe baskets that were trained to build the model that is included in this repo.
  
 
 
@@ -95,12 +96,4 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
-## Architecture
 
-User profiles are stored in Redis as [hash data structures](https://redis.io/commands#hash)
-
-After the user adds items to the cart for scoring, the cart is transformed into a tensor, scored by [RedisAI](https://redisai.io) and a confidence score is returned.
-
-## Data sources
-
-The data was pulled from [Amazon reviews datasets](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) and the model was built using reviews with verified purchases.  Individual user profiles were compiled and analyzed to describe baskets that were trained to build the model that is included in this repo.
