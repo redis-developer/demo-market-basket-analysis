@@ -20,7 +20,7 @@
   "redis_features": [],
   "redis_modules": ["RedisAI","RedisGears"],
   "app_image_urls": [
-    "https://github.com/redis-developer/redis-market-basket-analysis/blob/master/redis-market-basket-analysis-1.png"
+    "https://raw.githubusercontent.com/redis-developer/redis-market-basket-analysis/master/redis-market-basket-analysis-1.png"
   ],
   "youtube_url": "",
   "special_tags": [""],
