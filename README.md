@@ -43,6 +43,23 @@ If we add Wireless, then this is a highly likely basket with a score of 0.99989.
 
 ![My Image](redis-market-basket-analysis-1.png)
 
+If you monitor, you will see a bunch of Redis hash data structure is being used to add new items as shown below:
+ 
+```
+"GET" "session:53ee3f94-c507-4075-a60f-871546e2f90f"
+"EXISTS" "USERLIST"
+"SMEMBERS" "USERLIST"
+...
+"SETEX" 
+"GET" "session:53ee3f94-c507-4075-a60f-871546e2f90f"
+"SETEX" 
+..
+"GET" "session:53ee3f94-c507-4075-a60f-871546e2f90f"
+"HGETALL" "user:splurgenarrow"
+```
+But if we add Major_Appliances then it will be an unlikely basket with a score of 0.00917
+
+![My Image](redis-market-basket-analysis-2.png)
 
 
 ## Developing
