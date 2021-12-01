@@ -1,6 +1,12 @@
 # Redis Market Basket Analysis
 
+Uses RedisAI to score a market basket
+
 ## Use case
+
+Market basket analysis is a technique based on buying a group item. The approach is based on the theory that customers who buy a certain item (or group of items) are more likely to buy another specific item (or group of items) It creates If-Then scenario rules, for example, if item A is purchased then item B is likely to be purchased. The rules are probabilistic in nature or, in other words, they are derived from the frequencies of co-occurrence in the observations.
+
+```If {A} then likelihood of B is probably more accurate```
 
 Given the historical purchases of a user by category, we would like to know the likelyhood of them purchasing items from other categories.
 
@@ -10,7 +16,7 @@ Market Basket Analysis can be used in fraud detection or to suggest other items 
 
 This demo will allow you to score various baskets based on some pre-populated users and profiles.
 
-## Running
+## Getting Started
 
 ```
 docker-compose up
@@ -22,6 +28,10 @@ Access the demo through your [browser](http://localhost:8080)
 2) View the user profile
 3) Click on the cart tab and add new items and score
 4) Select a different user and experiment with baskets
+
+### How does it work?
+
+![My Image](redis-market-basket-analysis.png)
 
 ### Scoring
 
