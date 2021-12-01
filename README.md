@@ -33,17 +33,17 @@ Access the demo through your [browser](http://localhost:8080)
 
 ![My Image](redis-market-basket-analysis.png)
 
+User profiles are stored in Redis as hash data structures. After the user adds items to the cart for scoring, the cart is transformed into a tensor, scored by RedisAI and a confidence score is returned.
+ 
 ### Scoring
+The scores vary between 0 and 1.  A score closer to 1 indicates that the basket of items by category is more likely to mirror broader purchasing patterns. For example given the another example for a user profile "splurgenarrow" :
 
-The scores vary between 0 and 1.
+ 
+If we add Wireless, then this is a highly likely basket with a score of 0.99989. Adding items categorized as "wireless" results in a basket with a high likelihood of matching the purchasing patterns that we have modeled from previous data
 
-A score closer to 1 indicates that the basket of items by category is more likely to mirror broader purchasing patterns.
+![My Image](redis-market-basket-analysis-1.png)
 
-For example given the user profile "splurgenarrow" :
 
-If they add Wireless this is a higly likely basket with a score of 0.99989
-
-But they add Major_Appliances then it will be an unlikely baske with a score of 0.00417
 
 ## Developing
 
