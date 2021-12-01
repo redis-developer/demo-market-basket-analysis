@@ -1,0 +1,30 @@
+{
+  "app_name": "Market Basket Analysis",
+  "description": "Market-basket Analysis and Prediction using RedisAI And RedisGears",
+  "type": "Building Block",
+  "contributed_by": "Redis Labs",
+  "repo_url": "https://github.com/redis-developer/redis-market-basket-analysis",
+  "preview_image_url": "https://raw.githubusercontent.com/redis-developer/redis-market-basket-analysis/master/images/app_preview_image.png",
+  "download_url": "https://github.com/redis-developer/redis-market-basket-analysis/archive/refs/heads/main.zip",
+  "hosted_url": "",
+  "quick_deploy": "false",
+  "deploy_buttons": [
+        {
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/redis-market-basket-analysis.git" 
+        },
+        {
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/redis-market-basket-analysis.git" 
+        }
+    ],
+  "language": ["Python"],
+  "redis_features": [],
+  "redis_modules": ["RedisAI","RedisGears"],
+  "app_image_urls": [
+    "https://github.com/redis-developer/redis-market-basket-analysis/blob/main/images/home-advanced-filter.png?raw=true",
+    "https://github.com/redis-developer/redis-market-basket-analysis/blob/main/images/log-details-popup.png?raw=true"
+  ],
+  "youtube_url": "",
+  "special_tags": [""],
+  "verticals": ["Others"],
+  "markdown": "https://raw.githubusercontent.com/redis-developer/redis-market-basket-analysis/main/README.md"
+}
