@@ -1,4 +1,4 @@
-# Market Basket Analysis
+# Redis Market Basket Analysis
 
 ## Use case
 
