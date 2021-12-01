@@ -54,7 +54,7 @@ If you monitor, you will see a bunch of Redis hash data structure is being used 
 ```
 But if we add Major_Appliances then it will be an unlikely basket with a score of 0.00917
 
-![My Image](redis-market-basket-analysis-2.png)
+![My Image](https://raw.githubusercontent.com/redis-developer/redis-market-basket-analysis/master/redis-market-basket-analysis-2.png)
 
 ```
 
