@@ -1,5 +1,5 @@
 {
-  "app_name": "Redis Market Basket Analysis",
+  "app_name": "Market-Basket Analysis",
   "description": "Market-basket Analysis and Prediction using RedisAI And RedisGears",
   "type": "Building Block",
   "contributed_by": "Redis Labs",
