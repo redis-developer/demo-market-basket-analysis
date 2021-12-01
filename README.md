@@ -7,7 +7,9 @@ Market-Basket Analysis(MBA) uses RedisAI and RedisGears to score a market basket
 
 In case you're new to Market-Basket Analysis, it is a technique based on buying a group item. The approach is based on the theory that customers who buy a certain item (or group of items) are more likely to buy another specific item (or group of items) It creates If-Then scenario rules, for example, if item A is purchased then item B is likely to be purchased. The rules are probabilistic in nature or, in other words, they are derived from the frequencies of co-occurrence in the observations. Given the historical purchases of a user by category, we would like to know the likelyhood of them purchasing items from other categories.
 
-Market Basket Analysis is also used in fraud detection or to suggest other items that a customer may be interested in purchasing.It may be possible to identify purchase behaviour that can be associated with fraud on the basis of market basket analysis data that contain credit card usage. Watch out this video if you want to learn more about this topc https://www.youtube.com/watch?v=UBRuYVn4MjQ
+Market Basket Analysis is also used in fraud detection or to suggest other items that a customer may be interested in purchasing.It may be possible to identify purchase behaviour that can be associated with fraud on the basis of market basket analysis data that contain credit card usage. 
+
+For more information on the topic of Fraud Detection please see our presentation at [Microsoft Developers conference]( https://www.youtube.com/watch?v=UBRuYVn4MjQ)
 
 This demo will allow you to score various baskets based on some pre-populated users and profiles.
 
