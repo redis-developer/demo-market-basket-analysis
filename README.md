@@ -61,6 +61,22 @@ But if we add Major_Appliances then it will be an unlikely basket with a score o
 
 ![My Image](redis-market-basket-analysis-2.png)
 
+```
+
+"GET" "session:53ee3f94-c507-4075-a60f-871546e2f90f"
+"AI.TENSORSET" "TENSOR:53ee3f94-c507-4075-a60f-871546e2f90f" "FLOAT" "1" "43" "VALUES" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "2.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "2.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "1.0" "0.0" "0.0" "0.0" "0.0" "0.0" "0.0" "16.0" "0.0" "0.0" "0.0" "0.0" "0.0"
+"AI.MODELRUN" "profile_model" "INPUTS" "TENSOR:53ee3f94-c507-4075-a60f-871546e2f90f" "OUTPUTS" "TENSOR:53ee3f94-c507-4075-a60f-871546e2f90f:results"
+"AI.TENSORGET" "TENSOR:53ee3f94-c507-4075-a60f-871546e2f90f:results" "META" "BLOB"
+"DEL" "TENSOR:53ee3f94-c507-4075-a60f-871546e2f90f"
+"DEL" "TENSOR:53ee3f94-c507-4075-a60f-871546e2f90f:results"
+"HGETALL" "user:splurgenarrow"
+"SETEX" 
+```
+
+
+ 
+ 
+
 
 ## Developing
 
